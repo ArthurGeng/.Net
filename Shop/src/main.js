@@ -5,13 +5,10 @@
             $routeProvider.
                 when('/ProductDetails', {
                     template: '<product-details></product-details>'
-                    
+
                 }).
                 otherwise({ template: '<app></app>' });
 
-            
+
         }]);
 
-app.controller('c', function ($scope) {
-
-            });

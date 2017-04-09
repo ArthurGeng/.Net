@@ -8,14 +8,14 @@
             ctrl.productsArray = res;
         }, function () { });
 
-    ctrl.productDetails = function () {
-        productService.loadProductDetails()
-            .then(function (res) {
-                ctrl.tempProduct = res[0];
-                this.tempProduct = res[0];
-                console.log(res[0]);
-            }, function () { });
-    };
+    //ctrl.productDetails = function () {
+    //    productService.loadProductDetails()
+    //        .then(function (res) {
+    //            //ctrl.tempProduct = res[0];
+    //            //this.tempProduct = res[0];
+    //            //console.log(res[0]);
+    //        }, function () { });
+    //};
 };
 
 app.component("products", {

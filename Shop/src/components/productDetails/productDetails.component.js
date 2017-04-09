@@ -1,7 +1,5 @@
 ﻿function ProductDetails(productService) {
     var ctrl = this;
-    console.log(this.tempProduct);
-
 
     productService.loadProductDetails().
         then(function (res) {
